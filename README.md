@@ -1,7 +1,11 @@
 # Texter
 Texter is used to apply multiple styles and properties for a string set to textview. 
 
-# Snippet:
+# Screenshot 
+![1484221400561](https://cloud.githubusercontent.com/assets/24916522/21889805/bc2ca04c-d8f0-11e6-855b-58d1d2653b03.gif)
+
+# Usage
+```
 Texter.into(tv,"Texter is my first library. " +
                 "This library is used to apply multiple styles and properties for each character or words in a sentence. " +
                 "You can also use image wherever you want smile. " +
@@ -23,3 +27,4 @@ Texter.into(tv,"Texter is my first library. " +
                     }
                 },true,"Click Here!")
                 .build();
+```
