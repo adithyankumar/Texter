@@ -47,6 +47,11 @@ public  class Texter {
         flag=Spanned.SPAN_EXCLUSIVE_EXCLUSIVE;
     }
 
+    /**
+     * @param textView target textview
+     * @param text string to be displayed
+     * @return
+     */
     public static Texter into(TextView textView, String text){
         return new Texter(textView,text);
     }
